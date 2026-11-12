@@ -1,0 +1,135 @@
+{
+ "stand": "2026-11-12",
+ "layer": [
+  {
+   "datei": "gewerk-dach.geojson",
+   "name": "Dach",
+   "eintraege": 3
+  },
+  {
+   "datei": "gewerk-daemmung.geojson",
+   "name": "Dämmung",
+   "eintraege": 4
+  },
+  {
+   "datei": "gewerk-elektroinstallation.geojson",
+   "name": "Elektroinstallation",
+   "eintraege": 1
+  },
+  {
+   "datei": "gewerk-energieberatung.geojson",
+   "name": "Energieberatung",
+   "eintraege": 3
+  },
+  {
+   "datei": "gewerk-fenster.geojson",
+   "name": "Fenster",
+   "eintraege": 2
+  },
+  {
+   "datei": "gewerk-gasheizung.geojson",
+   "name": "Gasheizung",
+   "eintraege": 1
+  },
+  {
+   "datei": "gewerk-haustuer.geojson",
+   "name": "Haustür",
+   "eintraege": 3
+  },
+  {
+   "datei": "gewerk-innenausbau.geojson",
+   "name": "Innenausbau",
+   "eintraege": 3
+  },
+  {
+   "datei": "gewerk-klimaanlage.geojson",
+   "name": "Klimaanlage",
+   "eintraege": 2
+  },
+  {
+   "datei": "gewerk-pelletheizung.geojson",
+   "name": "Pelletheizung",
+   "eintraege": 1
+  },
+  {
+   "datei": "gewerk-photovoltaik.geojson",
+   "name": "Photovoltaik",
+   "eintraege": 6
+  },
+  {
+   "datei": "gewerk-wallbox.geojson",
+   "name": "Wallbox",
+   "eintraege": 3
+  },
+  {
+   "datei": "gewerk-waermepumpe.geojson",
+   "name": "Wärmepumpe",
+   "eintraege": 12
+  },
+  {
+   "datei": "s-partner-daemmung.geojson",
+   "name": "S-Partner Dämmung",
+   "eintraege": 1
+  },
+  {
+   "datei": "s-partner-energieberatung.geojson",
+   "name": "S-Partner Energieberatung",
+   "eintraege": 2
+  },
+  {
+   "datei": "s-partner-fenster.geojson",
+   "name": "S-Partner Fenster",
+   "eintraege": 3
+  },
+  {
+   "datei": "s-partner-gasheizung.geojson",
+   "name": "S-Partner Gasheizung",
+   "eintraege": 1
+  },
+  {
+   "datei": "s-partner-haustuer.geojson",
+   "name": "S-Partner Haustür",
+   "eintraege": 1
+  },
+  {
+   "datei": "s-partner-infrarotheizung.geojson",
+   "name": "S-Partner Infrarotheizung",
+   "eintraege": 1
+  },
+  {
+   "datei": "s-partner-inneneinrichtung.geojson",
+   "name": "S-Partner Inneneinrichtung",
+   "eintraege": 1
+  },
+  {
+   "datei": "s-partner-pelletheizung.geojson",
+   "name": "S-Partner Pelletheizung",
+   "eintraege": 1
+  },
+  {
+   "datei": "s-partner-photovoltaik.geojson",
+   "name": "S-Partner Photovoltaik",
+   "eintraege": 2
+  },
+  {
+   "datei": "s-partner-wallbox.geojson",
+   "name": "S-Partner Wallbox",
+   "eintraege": 1
+  },
+  {
+   "datei": "s-partner-waermepumpe.geojson",
+   "name": "S-Partner Wärmepumpe",
+   "eintraege": 2
+  },
+  {
+   "datei": "finanzierung-cpl.geojson",
+   "name": "Finanzierung CPL",
+   "eintraege": 3
+  },
+  {
+   "datei": "finanzierung-revshare.geojson",
+   "name": "Finanzierung Rev-Share",
+   "eintraege": 4
+  }
+ ]
+}
