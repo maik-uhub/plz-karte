@@ -1,0 +1,441 @@
+{
+ "type": "umap",
+ "properties": {
+  "name": "PLZ-Karte Partnergebiete",
+  "description": "Partnergebiete je Gewerk nach PLZ. Durchgezogen = Primär, gestrichelt = Backup. Daten werden automatisch aktualisiert.",
+  "zoom": 6,
+  "easing": false,
+  "miniMap": false,
+  "facetKey": "kaeufer|Käuferleads,rolle|Rolle",
+  "filterKey": "partner_id,name",
+  "onLoadPanel": "databrowser",
+  "displayPopupFooter": false,
+  "captionBar": true,
+  "shortCredit": "PLZ-Grenzen: © OpenStreetMap-Mitwirkende (ODbL)"
+ },
+ "geometry": {
+  "type": "Point",
+  "coordinates": [
+   10.4,
+   51.2
+  ]
+ },
+ "layers": [
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "Dach",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/gewerk-dach.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{rolle} · {plz_anzahl} PLZ\nKäuferleads: {kaeufer}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "Dämmung",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/gewerk-daemmung.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{rolle} · {plz_anzahl} PLZ\nKäuferleads: {kaeufer}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "Elektroinstallation",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/gewerk-elektroinstallation.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{rolle} · {plz_anzahl} PLZ\nKäuferleads: {kaeufer}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "Energieberatung",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/gewerk-energieberatung.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{rolle} · {plz_anzahl} PLZ\nKäuferleads: {kaeufer}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "Fenster",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/gewerk-fenster.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{rolle} · {plz_anzahl} PLZ\nKäuferleads: {kaeufer}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "Gasheizung",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/gewerk-gasheizung.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{rolle} · {plz_anzahl} PLZ\nKäuferleads: {kaeufer}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "Haustür",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/gewerk-haustuer.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{rolle} · {plz_anzahl} PLZ\nKäuferleads: {kaeufer}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "Innenausbau",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/gewerk-innenausbau.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{rolle} · {plz_anzahl} PLZ\nKäuferleads: {kaeufer}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "Klimaanlage",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/gewerk-klimaanlage.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{rolle} · {plz_anzahl} PLZ\nKäuferleads: {kaeufer}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "Pelletheizung",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/gewerk-pelletheizung.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{rolle} · {plz_anzahl} PLZ\nKäuferleads: {kaeufer}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "Photovoltaik",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/gewerk-photovoltaik.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{rolle} · {plz_anzahl} PLZ\nKäuferleads: {kaeufer}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "Wallbox",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/gewerk-wallbox.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{rolle} · {plz_anzahl} PLZ\nKäuferleads: {kaeufer}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "Wärmepumpe",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/gewerk-waermepumpe.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{rolle} · {plz_anzahl} PLZ\nKäuferleads: {kaeufer}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "S-Partner Dämmung",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/s-partner-daemmung.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{partner_ids}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "S-Partner Energieberatung",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/s-partner-energieberatung.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{partner_ids}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "S-Partner Fenster",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/s-partner-fenster.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{partner_ids}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "S-Partner Gasheizung",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/s-partner-gasheizung.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{partner_ids}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "S-Partner Haustür",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/s-partner-haustuer.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{partner_ids}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "S-Partner Infrarotheizung",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/s-partner-infrarotheizung.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{partner_ids}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "S-Partner Inneneinrichtung",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/s-partner-inneneinrichtung.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{partner_ids}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "S-Partner Pelletheizung",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/s-partner-pelletheizung.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{partner_ids}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "S-Partner Photovoltaik",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/s-partner-photovoltaik.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{partner_ids}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "S-Partner Wallbox",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/s-partner-wallbox.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{partner_ids}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "S-Partner Wärmepumpe",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/s-partner-waermepumpe.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{partner_ids}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "Finanzierung CPL",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/finanzierung-cpl.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{gebiet} · {stand}\nLead-Klassen: {lead_klassen}"
+   }
+  },
+  {
+   "type": "FeatureCollection",
+   "features": [],
+   "_umap_options": {
+    "name": "Finanzierung Rev-Share",
+    "displayOnLoad": false,
+    "browsable": true,
+    "remoteData": {
+     "url": "https://maik-uhub.github.io/plz-karte/data/finanzierung-revshare.geojson",
+     "format": "geojson",
+     "dynamic": false,
+     "proxy": false
+    },
+    "popupContentTemplate": "# {name}\n{gebiet} · {stand}\nLead-Klassen: {lead_klassen}"
+   }
+  }
+ ]
+}
