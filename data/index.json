@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-12",
+ "stand": "2026-11-16",
  "layer": [
   {
    "datei": "gewerk-dach.geojson",
@@ -39,7 +39,7 @@
   {
    "datei": "gewerk-innenausbau.geojson",
    "name": "Innenausbau",
-   "eintraege": 3
+   "eintraege": 4
   },
   {
    "datei": "gewerk-klimaanlage.geojson",
