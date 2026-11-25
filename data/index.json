@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-24",
+ "stand": "2026-11-25",
  "layer": [
   {
    "datei": "gewerk-dach.geojson",
@@ -124,7 +124,7 @@
   {
    "datei": "finanzierung-cpl.geojson",
    "name": "Finanzierung CPL",
-   "eintraege": 5
+   "eintraege": 6
   },
   {
    "datei": "finanzierung-revshare.geojson",
