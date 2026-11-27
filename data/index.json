@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-26",
+ "stand": "2026-11-27",
  "layer": [
   {
    "datei": "gewerk-dach.geojson",
@@ -65,6 +65,11 @@
    "datei": "gewerk-waermepumpe.geojson",
    "name": "Wärmepumpe",
    "eintraege": 10
+  },
+  {
+   "datei": "s-partner-dach.geojson",
+   "name": "S-Partner Dach",
+   "eintraege": 1
   },
   {
    "datei": "s-partner-daemmung.geojson",
